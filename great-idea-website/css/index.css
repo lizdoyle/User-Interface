@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+
+}
+header nav a {
+	text-decoration: none;
+	margin: 30px;
+	color: lightslategray;
+}
+header img.logo {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.hero {
+	/* display: inline-block; */
+	height: 500px;
+}
+
+.hero h1 {
+	display: inline-block;
+	font-family: 'Titillium-Web' sans-serif;
+	line-height: 1.0;
+	font-size: 72px;
+	text-align: center;
+	letter-spacing: 7px;
+	margin: 50px 20px;
+
+}
+.heroText {
+	display:inline-block;
+	margin: 30px 0 0 20px;
+}
+.hero img {
+	display: inline-block;
+	float: right;
+	/* margin: 50px auto; */
+	/* vertical-align: middle; */
+	/* position: relative; */
+	margin-top: 60px;
+	padding: 0 30px;
+
+	
+}
+
+.hero button {
+	display: block;
+	margin: 0 0 0 120px;
+	padding: 5px 20px;
+	font-family: 'Titillium-Web' sans-serif;
+	font-size: 20px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+
+main .main-content {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 30px;
+
+}
+main .main-content .top-row {
+	display: inline-block;
+	margin: 10px 30px;
+	padding: 20px;
+	width: 250px;
+	height: auto;
+}
+.top-row {
+	display:block;
+	padding: 20px 0;
+	border-top: 1px solid #000;
+	padding-top: 50px;
+}
+
+.t1 {
+	display: inline-block;
+	width: 45%;
+	margin: 0 20px 20px 0;
+}
+.t2 {
+	display: inline-block;
+	width: 45%;
+	margin: 0 0 20px 20px;
+}
+
+.bottom-row {
+	display:block;
+	padding: 20px 0;
+	border-bottom: 1px solid #000;
+	padding-bottom: 50px;
+}
+
+.b1 {
+	display: inline-block;
+	width: 30%;
+	/* margin: 0 20px 20px 0; */
+}
+
+.b2 {
+	display: inline-block;
+	width: 30%;
+	margin: 0 30px;
+}
+.b3 {
+	display: inline-block;
+	width: 30%;
+	/* margin: 0 0 20px 20px; */
+}
+.main-image {
+	margin: 30px auto;
+}
+.middle-img {
+	width: 100%;
+
+}
+.Contact {
+	margin: 50px 0;
+}
+footer p {
+	text-align: center;
+}
